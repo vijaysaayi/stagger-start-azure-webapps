@@ -17,7 +17,6 @@ function StopAllAndStaggeredStartWebapp(){
     ) 
     
     Write-Host ""
-    Write-Host "Setting default subscription as $SubscriptionId"
     Set-DefaultSubscription -SubscriptionId $SubscriptionId
     Write-Host ""
 
