@@ -1,4 +1,4 @@
-function StopAllAndStaggeredStartWebapp(){
+function StopAllAndStaggeredStartWebapps(){
     [CmdletBinding()]
     param ( 
         [Parameter(Mandatory)]
