@@ -12,6 +12,6 @@ StaggeredStartWebapps is a Powershell module that acts as wrapper around az cli 
     git clone https://github.com/vijaysaayi/stagger-start-azure-webapps
     cd stagger-start-azure-webapps
 
-    Import-Module .\StaggeredStartWebApps\staggered-start-webapps.psd1 
+    Import-Module .\StaggeredStartWebApps\staggered-start-webapps.psd1 -Force
     StopAllAndStaggeredStartWebapps -SubscriptionId "<subscription-id>" -ResourceGroup "resource-group-name" -AppServicePlan "app-service-plan-name"
 ```
